@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "name": "Inland-PLA-Plus",
+  "inherits": "snapmaker",
+  "metadata": {
+    "visible": true,
+    "readonly": false,
+    "author": "walker",
+    "manufacturer": "Snapmaker",
+    "file_formats": "text/x-gcode",
+    "machine_extruder_trains": {
+      "0": "snapmaker_extruder_0"
+    }
+  },
+  "overrides": {
+    "material_flow": {
+      "default_value": 100
+    },
+    "machine_heated_bed": {
+      "default_value": true
+    },
+    "material_final_print_temperature": {
+      "default_value": 205
+    },
+    "material_print_temperature_layer_0": {
+      "default_value": 210
+    },
+    "material_print_temperature": {
+      "default_value": 210
+    },
+    "material_bed_temperature_layer_0": {
+      "default_value": 70
+    },
+    "material_bed_temperature": {
+      "default_value": 50
+    },
+    "material_diameter": {
+      "default_value": 1.75
+    }
+  }
+}
